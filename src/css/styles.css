@@ -1,0 +1,171 @@
+.main-ctr {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: #2a81a3;
+}
+
+.main-panel {
+    width: 50%;
+    height: 80%;
+    box-shadow: 1px 2px 6px 2px #454343;
+    border-radius: 5px;
+    background: #ffffff;
+    transition: all 0.3s ease-in-out;
+}
+
+.header-panel {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 300px;
+}
+
+.phone-img {
+    margin: 0px 15px 0px 0px;
+}
+
+.phone-img img {
+    height: 50px;
+    width: 50px;
+}
+
+.title-label {
+    font-size: 40px;
+    font-weight: lighter;
+    color: #000000;
+}
+
+.form-panel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-panel > div {
+    width: 530px;
+}
+
+.form-panel .form-control {
+    padding: .375rem 2.75rem .375rem .75rem;
+}
+
+.input-label > div {
+    text-align: left;
+    padding-left: 25px;
+    margin: 10px 0px;
+}
+
+.input-field {
+    position: relative;
+}
+
+.search-img {
+    position: absolute;
+    left: 86%;
+    top: 15%;
+    cursor: pointer;
+}
+
+.search-img > img {
+    height: 25px;
+}
+
+.main-view-panel {
+    padding: 25px 50px;
+    color: #636363;
+}
+
+.header-view-panel {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    height: 100px;
+}
+
+.header-view-panel .avatar-img img {
+    height: 70px;
+    border-radius: 50%;
+    box-shadow: 0px 0px 6px 3px #d9d7d7;
+    border: 1px solid #d8d2d2;
+}
+
+.avatar-img {
+    margin: 0px 20px 0px 0px;
+}
+
+.user-label {
+    font-weight: 300;
+    color: #595b5c;
+}
+
+.user-label-name {
+    font-size: 35px;
+}
+
+.user-label-phoneno {
+    font-size: 15px;
+    text-align: left;
+    font-weight: 500;
+    margin-top: -10px;
+}
+
+.view-fetch-header {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.view-fetch-header .fetch-img img {
+    height: 60px;
+    width: auto;
+    border-radius: 50%;
+}
+
+.fetch-img {
+    margin: 0px 15px 0px 0px;
+}
+
+.fetch-title {
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.view-panel {
+    padding: 20px 0px 0px 0px;  
+}
+
+.description-main-col {
+    font-size: 15px;
+    text-align: justify;
+    padding: 0px 15px;
+}
+
+.description-dscp {
+    font-weight: 400;
+    margin: 20px 0px;
+}
+
+.compromised-label {
+    font-weight: 700;
+}
+
+.back-btn-col {
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    height: 75px;
+}
+
+.back-btn-col .btn-secondary {
+    background-color: #2a81a3;
+    border-color: #2a7c9c;
+    width: 150px;
+    font-weight: 300;
+}
+
+.back-btn-col .btn-secondary:hover {
+    background-color: #21607a;
+    border-color: #19495b;
+}
